@@ -21,3 +21,36 @@ swh.export/
 .vscode/
 .DS_Store
 '@ | Out-File -Encoding utf8 .gitignore
+﻿# Virtual Environments - Match ANY env folder pattern
+venv/
+venv_*/
+*env/
+*env_*/
+my_envsource/
+swh.export/
+env/
+ENV/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Downloaded data
+data/raw/code/
+*.sha256
+
+# Logs
+
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

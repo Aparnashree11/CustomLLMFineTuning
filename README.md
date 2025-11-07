@@ -4,6 +4,9 @@ An end-to-end platform for fine-tuning and serving large language models (LLMs) 
 
 ---
 
+## Recent Work
+**Data Pipeline Implementation** → For detailed information checkout [Data-Pipeline README](Data-Pipeline/README.md) 
+
 ## Key Features
 
 **Fine-Tuning** → Parameter-efficient training (LoRA/QLoRA) on user datasets.
@@ -39,5 +42,3 @@ FinTech copilots trained on regulatory codebases.
 Healthcare assistants fine-tuned on medical knowledge.
 
 Enterprise AI copilots for private code repositories.
-
----
